@@ -10,7 +10,7 @@
 - オブジェクトを返す関数
 ```javascript
 function getObject () {
-  const object = returnObject;
+  const object = returnObject();
 
   console.log(object.val);
   console.log(object.text);
