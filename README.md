@@ -7,8 +7,10 @@
 - よって，外部水晶発振器は必須．
 
 ## Javascriptに関するメモ
-- オブジェクトを返す関数
+- オブジェクトを返す関数の利用
 ```javascript
+getObject();
+
 function getObject () {
   const object = returnObject();
 
