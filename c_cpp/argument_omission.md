@@ -4,7 +4,10 @@
 
 ### 方法1 デフォルト引数の設定
 ```cpp
-int sumFunc (int x, int y, int z = 0)
+// プロトタイプ宣言時に既定値を設定
+int sumFunc (int x, int y, int z = 0);
+
+void setup () {}
 
 void loop () {
   int a = sumFunc(10, 20, 30); // a == 60
@@ -27,7 +30,7 @@ int sumFunc (int x, int y, int z) {
   return x + y + z;
 }
 
-int sumFunc (int x, int y) {
+int sumFunc (int x, int y) { // オーバーロード
   return x + y;
 }
 ```
