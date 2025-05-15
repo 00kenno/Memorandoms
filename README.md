@@ -2,9 +2,9 @@
 
 ## 鳥科電装開発
 ### Arduino IDE でのコーディング
-- [関数を様々な引数に対応させる](torica/function_parameter)
+- [関数を様々な引数に対応させる](torica/function_parameter.md)
 ### RP2040
-- [rp2040の発振器について](rp2040/oscillator)
+- [rp2040の発振器について](rp2040/oscillator.md)
 - 内臓リングオシレーターはシリアル通信など正確な周波数を必要とする動作をするには精度が足りない．
 - よって，外部水晶発振器は必須．
 
