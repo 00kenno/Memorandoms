@@ -7,9 +7,7 @@
 // プロトタイプ宣言時に既定値を設定
 int sumFunc (int x, int y, int z = 0);
 
-void setup () {}
-
-void loop () {
+void main () {
   int a = sumFunc(10, 20, 30); // a == 60
   int b = sumFunc(10, 20); // b == 30
 }
@@ -21,7 +19,7 @@ int sumFunc (int x, int y, int z) {
 
 ### 方法2 関数のオーバーロード
 ```cpp
-void loop () {
+void main () {
   int a = sumFunc(10, 20, 30); // a == 60
   int b = sumFunc(10, 20); // b == 30
 }
