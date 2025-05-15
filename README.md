@@ -1,4 +1,8 @@
-# 情報処理関連
+# 鳥人間
+
+- [【鳥科25代】操縦桿の装着方法](torica/joystick_installation.md)
+
+# 情報処理
 
 ## C/C++
 - [関数を様々な引数に対応させる](c_cpp/argument_omission.md)
