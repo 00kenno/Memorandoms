@@ -87,3 +87,28 @@
   }
 }
 ```
+
+### 表を挿入する
+```json
+{
+  "table": {
+    "prefix": "table",
+    "body": [
+      "\\begin{table}",,
+      "\t\\centering",
+      "\t\\caption{各種工作機械の分類}",
+      "\t\\vspace{0.3\\baselineskip}",
+      "\t\\begin{tabular}{|c||cc|} \\hline",
+      "\t\t種類 & NC装置 & ATC \\\\\\ \\hline",
+      "\t\t汎用旋盤 & ✕ & ✕ \\\\\\",
+      "\t\t汎用フライス盤 & ✕ & ✕ \\\\\\",
+      "\t\tNC旋盤 & ○ & ✕ \\\\\\",
+      "\t\tNCフライス盤 & ○ & ✕ \\\\\\",
+      "\t\tターニングセンタ & ○ & ○ \\\\\\",
+      "\t\tマシニングセンタ & ○ & ○ \\\\\\ \\hline",
+      "\t\\end{tabular}",
+      "\\end{table}"
+    ]
+  }
+}
+```
