@@ -12,3 +12,6 @@
 
 ## Javascript
 - [オブジェクトを返す関数](contents/javascript/return_object.md)
+
+## Latex(lualatex)
+- [各種スニペット](contents/latex/snippets.md)
