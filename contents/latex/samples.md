@@ -4,28 +4,25 @@
 
 ### 日本語レポート用プリアンブル
 ```
-\documentclass[fontsize=10.5bp]{jlreq}
+\PassOptionsToPackage{margin=30truemm}{geometry}
+\documentclass[a4paper]{bxjsreport}
+%package
 \usepackage{amsmath, amssymb}
 \usepackage{unicode-math}
 \usepackage{mathcomp}
 \usepackage{textcomp}
-\usepackage[margin=30truemm]{geometry}
-\usepackage{bm}
-\usepackage{fontspec}
-\usepackage{luatexja-fontspec}
+\usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage{subcaption}
+\usepackage{rotating}
 \usepackage{multirow}
-\usepackage[super]{cite}
-\renewcommand\citeform[1]{[#1]}
-\usepackage{url}
-\renewcommand{\UrlFont}{\fontspec{Times-New-Roman}}
-\setmainfont[Ligatures={Rare,TeX}]{Times-New-Roman}
-\setsansfont[Ligatures={Rare,TeX}]{Times-New-Roman}
+%westernLanguage
+\usepackage{fontspec}
+\setmainfont[Ligatures={Rare,TeX}]{Times New Roman}
+\setsansfont[Ligatures={Rare,TeX}]{Times New Roman}
+%japaneseLanguage
+\usepackage{luatexja-fontspec}
 \setmainjfont[
-  YokoFeatures       = {JFM=jlreq},
-  TateFeatures       = {JFM=jlreqv},
   BoldFont           = MS-Mincho,
   BoldFeatures       = {FakeBold=2},
   ItalicFont         = MS-Mincho,
@@ -34,8 +31,6 @@
   BoldItalicFeatures = {FakeBold=2, FakeSlant=0.33}
 ]{MS-Mincho}
 \setsansjfont[
-  YokoFeatures       = {JFM=jlreq},
-  TateFeatures       = {JFM=jlreqv},
   BoldFont           = MS-Mincho,
   BoldFeatures       = {FakeBold=2},
   ItalicFont         = MS-Mincho,
@@ -43,6 +38,48 @@
   BoldItalicFont     = MS-Mincho,
   BoldItalicFeatures = {FakeBold=2, FakeSlant=0.33}
 ]{MS-Mincho}
+%caption
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{labelsep=space}
+%cite
+\usepackage[super]{cite}
+\renewcommand\citeform[1]{[\thechapter-#1]}
+\usepackage{chngcntr}
+\counterwithin{enumiv}{chapter}
+\renewcommand{\bibname}{}
+\makeatletter
+\renewenvironment{thebibliography}[1]{%
+  \begin{list}{[\thechapter-\@biblabelnum]}{%
+      \setlength{\leftmargin}{2em}%
+      \usecounter{enumiv}%
+      \let\p@enumiv\@empty
+      \def\@biblabelnum{\arabic{enumiv}}%
+    }%
+}{%
+  \end{list}%
+}
+\makeatother
+%URL
+\usepackage{url}
+\renewcommand{\UrlFont}{\fontspec{Times New Roman}}
+%chapter
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+%10.5ptOutput
+\makeatletter
+\AtBeginDocument{\fontsize{10.5pt}{16pt}\selectfont}
+\makeatother
+%chapter
+\makeatletter
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+    \Large\bfseries \thechapter\quad #1\par\nobreak\vskip 20pt}} % ←ここでサイズ指定
+\def\@makeschapterhead#1{%
+  \vspace*{20pt}%
+  {\parindent \z@ \raggedright \normalfont
+    \Large\bfseries #1\par\nobreak\vskip 20pt}} % ←番号なし章（*付き）
+\makeatother
 ```
 
 ### テキスト幅の半分の画像を挿入する
@@ -126,11 +163,11 @@
 ### 参考文献リストを作成する
 ```
 \section{参考文献}
-\vspace{-3\baselineskip}
-\renewcommand{\refname}{}
+\begin{minipage}{0.95\textwidth}
 \begin{thebibliography}{99}
 \bibitem{CITEKEY} AUTHOR, "TITLE", \url{URL}, 閲覧日2025-MM-DD
 \end{thebibliography}
+\end{minipage}
 ```
 citeで文献参照
 ```
