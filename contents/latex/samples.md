@@ -4,14 +4,14 @@
 
 ### 日本語レポート用プリアンブル
 ```
-\PassOptionsToPackage{margin=30truemm}{geometry}
-\documentclass[a4paper]{bxjsreport}
+\documentclass[autodetect-engine,ja=standard]{bxjsreport}
+\setpagelayout*{top=20mm,right=30mm,bottom=16mm,left=30mm}
 %package
 \usepackage{amsmath, amssymb}
 \usepackage{unicode-math}
 \usepackage{mathcomp}
 \usepackage{textcomp}
-\usepackage{geometry}
+\usepackage{subcaption}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{rotating}
@@ -39,10 +39,8 @@
   BoldItalicFeatures = {FakeBold=2, FakeSlant=0.33}
 ]{MS-Mincho}
 %caption
-\usepackage{caption}
-\usepackage{subcaption}
 \captionsetup{labelsep=space}
-%cite
+%\cite
 \usepackage[super]{cite}
 \renewcommand\citeform[1]{[\thechapter-#1]}
 \usepackage{chngcntr}
