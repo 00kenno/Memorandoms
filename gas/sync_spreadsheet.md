@@ -5,16 +5,16 @@
 ## 1. スプレッドシートを準備する
 
 |同期先のスプレッドシートを準備する．シート名も変更しておく．|
-|--|
+|:--|
 |<img src="img/spreadSheetPreparation.png">|
 
 ## 2. Apps Scriptのプロジェクトを作成する
 |「拡張機能」➔「Apps Script」をクリック|
-|--|
+|:--|
 |<img src="img/makeAppsScriptProject.png">|
 
 |作成されたプロジェクトの名前を変更|
-|--|
+|:--|
 |<img src="https://raw.githubusercontent.com/00kenno/Expense_Report_Form/refs/heads/main/img/04_click_to_change_name.png">|
 
 
@@ -41,43 +41,43 @@ function syncSpreadsheets() {
 ```
 
 |「実行」をクリック|
-|--|
+|:--|
 |<img src="img/execute.png">|
 
 
 |「権限を確認」をクリック|
-|--|
+|:--|
 |<img src="img/confirmAccess.png">|
 
 アカウントを選択し，ログイン
 
 |「権限を確認」をクリック|
-|--|
+|:--|
 |<img src="img/confirmAccess.png">|
 
 |「詳細を表示」➔「無題のプロジェクト（安全ではないページ）に移動」をクリック|
-|--|
+|:--|
 |<img src="img/alert.png">|
 
 |「続行」をクリック|
-|--|
+|:--|
 |<img src="img/continue.png">|
 
 |実行ログと同期先のスプレッドシートを確認|
-|--|
+|:--|
 |<img src="img/success.png">|
 
 |トリガーを設定|
-|--|
+|:--|
 |<img src="img/trigger.png">|
 
 |「時間ベース」のトリガー（筆者は15分毎に設定），「スプレッドシート」のトリガー（筆者は起動時に設定）の設定を推奨|
-|--|
+|:--|
 |<img src="img/settedTriggers.png">|
 
 ## おまけ
 |経費精算のカテゴリ分けなどを行う場合，`SUMIF`関数が便利である．|
-|--|
+|:--|
 |<img src="img/sumif.png">|
 
 ```
