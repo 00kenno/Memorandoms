@@ -1,0 +1,129 @@
+\documentclass[paper=a4, fontsize=10bp]{jlreq}
+\usepackage{amsmath, amssymb}
+\usepackage{unicode-math}
+\usepackage[margin=30truemm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{multirow}
+\DeclareCaptionLabelSeparator{zenspace}{　}
+\DeclareCaptionFont{ninehalf}{\fontsize{9.5bp}{12bp}\selectfont}
+\captionsetup{labelsep=zenspace, font=ninehalf}
+\usepackage{luatexja-fontspec}
+\setmainfont{TeX Gyre Termes}
+\setsansfont{Arial}
+\usepackage[haranoaji, deluxe, ja-alnum]{luatexja-preset}
+\ModifyHeading{section}{font={\sffamily\bfseries\normalsize}, before_space=20bp, after_space=10bp}
+\ModifyHeading{subsection}{font={\sffamily\bfseries\normalsize}, before_space=15bp, after_space=10bp}
+\ModifyHeading{subsubsection}{font={\sffamily\bfseries\normalsize}, before_space=15bp, after_space=10bp}
+\AtBeginDocument{
+    \setlength{\abovedisplayskip}{1\baselineskip plus 3pt minus 3pt}
+    \setlength{\belowdisplayskip}{1\baselineskip plus 3pt minus 3pt}
+    \setlength{\abovedisplayshortskip}{1\baselineskip plus 3pt minus 3pt}
+    \setlength{\belowdisplayshortskip}{1\baselineskip plus 3pt minus 3pt}
+}
+\usepackage[super]{cite}
+\renewcommand\citeform[1]{[#1]}
+\usepackage{url}
+\renewcommand{\UrlFont}{\fontspec{Tex Gyre Termes}}
+\usepackage{pdfpages}
+\usepackage{rotating}
+\usepackage{diagbox}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\huge{
+    \textbf{トランシーバー使用者管理表}
+}
+
+\normalsize{
+    \begin{itemize}
+        \item 使用者は名前，利用日，利用するトランシーバーの番号を記入してください．
+        \item 返却時は，チェックボックスにチェックマークを入れてください．
+    \end{itemize}
+}
+
+\begin{table}[H]
+    \centering
+    \begin{minipage}[h]{0.5\linewidth}
+        \begin{tabular}{cccccc}
+            \hspace{20bp}使用者\hspace{20bp} & & 日付 & & No. & 返却 \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+        \end{tabular}
+    \end{minipage}
+    \begin{minipage}[h]{0.4\linewidth}
+        \centering
+        \begin{tabular}{cccccc}
+            \hspace{20bp}使用者\hspace{20bp} & & 日付 & & No. & 返却 \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+            \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & & \multicolumn{1}{|c|}{} & ▢  \\ \cline{1-1} \cline{3-3} \cline{5-5}
+        \end{tabular}
+    \end{minipage}
+\end{table}
+
+\end{document}
