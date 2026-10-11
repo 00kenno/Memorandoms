@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.15)  20 JUN 2026 21:28
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.15)  21 JUN 2026 08:43
  restricted system commands enabled.
 **walkie-talkie.tex
 (./walkie-talkie.tex
@@ -1764,37 +1764,45 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \diagbox@outsepl=\dimen293
 \diagbox@outsepr=\dimen294
 )
+(c:/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen295
+\WF@size=\dimen296
+\c@WF@wrappedlines=\count357
+\WF@box=\box92
+\WF@everypar=\toks42
+Package: wrapfig 2003/01/31  v 3.6
+)
 (c:/texlive/2025/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
 Package: lltjp-array 2024-07-21 Patch to array for LuaTeX-ja
 )
 (./auxfiles/walkie-talkie.aux)
 \openout1 = walkie-talkie.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 33.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 33.
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 33
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 34.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 34
 .
 (load cache: extra_latinmodernmath-regular.luc)
 
@@ -1839,15 +1847,15 @@ h;language=dflt;mathfontdimen=xetex;"<6.022494-8.5318665>"[latinmodern-math.otf
 e=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 33.
+(Font)              `operators' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 33.
+ line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 33.
+(Font)              `operators' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 33.
+t line 34.
 
 Package fontspec Info: 
 (fontspec)             Font family 'latinmodern-math.otf(2)' created for font
@@ -1872,15 +1880,15 @@ ath;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
 e=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 33.
+(Font)              `symbols' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 33.
+t line 34.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 33.
+(Font)              `symbols' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 33.
+t line 34.
 
 Package fontspec Info: 
 (fontspec)             Font family 'latinmodern-math.otf(3)' created for font
@@ -1906,35 +1914,35 @@ e=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 3
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 33.
+t line 34.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 33.
+(Font)              `largesymbols' in the math version `bold' on input line 34.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 33.
+t line 34.
 LaTeX Font Info:    Trying loading font information for OML+lmm on input line 3
-3.
+4.
 
 (c:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JY3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 
-(Font)              scaled to size 7.02625pt on input line 33.
+(Font)              scaled to size 7.02625pt on input line 34.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 
-(Font)              scaled to size 5.01874pt on input line 33.
-LaTeX Font Info:    Trying loading font information for U+msa on input line 33.
+(Font)              scaled to size 5.01874pt on input line 34.
+LaTeX Font Info:    Trying loading font information for U+msa on input line 34.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying loading font information for U+msb on input line 33.
+LaTeX Font Info:    Trying loading font information for U+msb on input line 34.
 
 
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1976,17 +1984,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
-\scratchdimen=\dimen295
-\scratchbox=\box92
-\nofMPsegments=\count358
-\nofMParguments=\count359
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count360
-\MPscratchDim=\dimen296
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count358
+\scratchdimen=\dimen297
+\scratchbox=\box93
+\nofMPsegments=\count359
+\nofMParguments=\count360
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count361
+\MPscratchDim=\dimen298
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
+\everyMPtoPDFconversion=\toks44
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1998,6 +2006,7 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
@@ -2012,27 +2021,32 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
+<walkie-talkie-src.pdf, id=1, 135.50626pt x 135.50626pt>
+File: walkie-talkie-src.pdf Graphic file (type pdf)
+<use walkie-talkie-src.pdf>
+Package luatex.def Info: walkie-talkie-src.pdf  used on input line 41.
+(luatex.def)             Requested size: 71.13188pt x 71.13356pt.
 LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 
-(Font)              scaled to size 20.07498pt on input line 37.
+(Font)              scaled to size 20.07498pt on input line 44.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiMincho-Regular.otf(0)/m/n' will be
 
-(Font)              scaled to size 20.07498pt on input line 37.
+(Font)              scaled to size 20.07498pt on input line 44.
 LaTeX Font Info:    Font shape `JT3/HaranoAjiMincho-Regular.otf(0)/b/n' will be
 
-(Font)              scaled to size 20.07498pt on input line 38.
+(Font)              scaled to size 20.07498pt on input line 45.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiMincho-Regular.otf(0)/b/n' will be
 
-(Font)              scaled to size 20.07498pt on input line 38.
+(Font)              scaled to size 20.07498pt on input line 45.
 
-Overfull \hbox (14.49786pt too wide) in paragraph at lines 90--126
+Overfull \hbox (14.49786pt too wide) in paragraph at lines 98--134
  [][][][] 
  []
 
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./auxfiles/walkie-talkie.aux)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./walkie-talkie-s
+rc.pdf>] (./auxfiles/walkie-talkie.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
@@ -2040,22 +2054,22 @@ L3 programming layer <2025-11-14>
 )
 
 Here is how much of LuaTeX's memory you used:
- 18035 strings out of 476081
- 244640,953878 words of node,token memory allocated
+ 18114 strings out of 476081
+ 244631,953878 words of node,token memory allocated
  1163 words of node memory still in use:
    11 hlist, 2 vlist, 6 rule, 2 glue, 4 kern, 2 glyph, 238 attribute, 55 glue_sp
 ec, 34 attribute_list, 1 write, 14 user_defined nodes
-   avail lists: 1:41,2:61541,3:78,4:2016,5:48,6:12,7:8008,8:3,9:5004,10:1
- 40085 multiletter control sequences out of 65536+600000
- 112 fonts using 127469463 bytes
- 119i,11n,128p,2053b,400s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:32,2:61895,3:88,4:2036,5:54,6:14,7:8030,8:1,9:5028,10:1
+ 40157 multiletter control sequences out of 65536+600000
+ 112 fonts using 127469423 bytes
+ 119i,11n,128p,2053b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regu
 lar.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes
 -regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoA
 jiMincho-Bold.otf>
-Output written on walkie-talkie.pdf (1 page, 20416 bytes).
+Output written on walkie-talkie.pdf (1 page, 33625 bytes).
 
-PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 30 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)

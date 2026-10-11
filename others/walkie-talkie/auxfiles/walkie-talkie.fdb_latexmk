@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1781958529.07049 "walkie-talkie.tex" "walkie-talkie.pdf" "walkie-talkie" 1781958538.57865 0
+["lualatex"] 1781999030.99864 "walkie-talkie.tex" "walkie-talkie.pdf" "walkie-talkie" 1781999041.52196 0
   "C:/Users/mynam/.texlive2025/texmf-var/luatexja/extra_arial-boldmt.luc" 1781237729 102442 72478f4410ded836781a07ae08851508 ""
   "C:/Users/mynam/.texlive2025/texmf-var/luatexja/extra_arialmt.luc" 1781237728 102442 d00ffc3b047c7c088b02cd33f2588d73 ""
   "C:/Users/mynam/.texlive2025/texmf-var/luatexja/extra_arialnarrow-bolditalic.luc" 1774369752 15365 cd41857ee3a45e34588938bf28cda2c9 ""
@@ -49,7 +49,7 @@
   "C:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/texgyretermes-regular.luc" 1776522340 207332 bf341b5400a5a40bdbd30d2965766365 ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1781957452 34040 3b2a4252fef6c6515cb21902d9553338 ""
   "C:/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1765867398 361924 8375cbdf1b4ad9d9ade846ab47e4f90a ""
-  "auxfiles/walkie-talkie.aux" 1781958537 32 3985256e7290058c681f74d7a3565a19 "lualatex"
+  "auxfiles/walkie-talkie.aux" 1781999040 32 3985256e7290058c681f74d7a3565a19 "lualatex"
   "c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Bold.otf" 1765719280 6690504 2ad652844b6ca258ffceaebb7730bf3b ""
   "c:/texlive/2025/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf" 1765719280 6422896 10567d16226fce1e1957ca6d1451a578 ""
   "c:/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf" 1765726637 140932 51bb7c49be62de28cb2b0d1456d5ef35 ""
@@ -150,6 +150,7 @@
   "c:/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex" 1765727432 241443 1a7594ad34b6e3e9ee4c5855f2c3ee83 ""
   "c:/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math.sty" 1765727432 1474 b42cfbe849cb22ed1c0632800327884f ""
   "c:/texlive/2025/texmf-dist/tex/latex/url/url.sty" 1765727521 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1765727768 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty" 1765727805 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "c:/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1765728235 5006 d7e899bb5d9717c7f214e9bc0284de7b ""
   "c:/texlive/2025/texmf-dist/tex/lualatex/lua-ul/pre_append_to_vlist_filter.lua" 1765722213 2203 444614620a69bb4fa42b0c194528b58d ""
@@ -240,7 +241,8 @@
   "c:/texlive/2025/texmf-dist/tex/luatex/luatexja/patches/lltjp-unicode-math.sty" 1765722292 2374 b8fe765244278a146468e7902f23e491 ""
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765728518 5587484 30eee748fa419a911c40b0c750dd21ba ""
   "c:/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt" 1765728810 5656942 2ea403cf62d05b44e87ea5106d9a7597 ""
-  "walkie-talkie.tex" 1781958527 11281 22469aa93a2996c3ac850fb54f0f01a7 ""
+  "walkie-talkie-src.pdf" 1781997526 13708 32a53b629de64646da1a1066a37e84f2 ""
+  "walkie-talkie.tex" 1781999019 11447 e58a4574f3124a6af48e59e54acf7df2 ""
   (generated)
   "auxfiles/walkie-talkie.aux"
   "auxfiles/walkie-talkie.log"
